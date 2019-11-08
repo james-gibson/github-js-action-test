@@ -11,7 +11,6 @@ async function run() {
     core.debug((new Date()).toTimeString())
     wait(parseInt(ms));
     core.debug((new Date()).toTimeString())
-
     core.setOutput('time', new Date().toTimeString());
   } 
   catch (error) {
